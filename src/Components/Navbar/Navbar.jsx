@@ -1,9 +1,9 @@
 import React from "react";
-import logo from '../assets/icon.png'
+import logo from '../../assets/icon.png'
 
 const Navbar = () => {
     return (
-        <div className="navbar flex flex-col sticky top-0 p-[2rem] h-screen w-max border-r-2">
+        <div className="navbar flex flex-col sticky top-0 p-[2rem] h-screen border-r-2">
 
             <div className="logoDiv flex pb-4 border-b-2 ">
                 <img src={logo} alt="icon" className="w-10 h-10" />
